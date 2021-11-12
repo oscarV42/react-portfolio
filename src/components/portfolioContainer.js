@@ -17,4 +17,6 @@ export default PortfolioContainer = () => {
         return <Contact/>
     }
   }
+
+  const handlePageChange = (page) => setCurrentPage(page);
 }
