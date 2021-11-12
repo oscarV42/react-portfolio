@@ -1,10 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import portfolioContainer from './components/portfolioContainer';
 
-function App() {
-  return (
-    
-  );
-}
-
+const App = () => <portfolioContainer />
+ 
 export default App;
