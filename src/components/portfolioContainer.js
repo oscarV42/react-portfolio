@@ -19,4 +19,13 @@ export default PortfolioContainer = () => {
   }
 
   const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      {/* Passing currentPage from state and the function to update it, handPAgeChange */}
+      <NavBar currentPage = { currentPage } handlePageChange = { handlePageChange }/>
+      {/* Calling the renderPAge method which will return a component */}
+      {renderPage()}
+    </div>
+  );
 }
