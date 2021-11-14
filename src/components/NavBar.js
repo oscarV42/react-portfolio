@@ -4,7 +4,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
   return(
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-      <a className="navbar-brand mr-auto" href="#home">🕶️</a>
+      <a className="navbar-brand mr-auto" href="#home" onClick={() => handlePageChange('Home')}>🕶️</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -30,12 +30,12 @@ const NavBar = ({ currentPage, handlePageChange }) => {
           </li>
           <li className="nav-item">
             <a
-              href="#contact"
-              onClick={() => handlePageChange('Contact')}
+              href="#work"
+              onClick={() => handlePageChange('Work')}
               // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+              className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
             >
-              Contact
+              My Work
             </a>
           </li>
         </ul>
