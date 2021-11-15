@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useEffect, useRef} from "react";
 import Typed from 'typed.js';
 
@@ -22,6 +23,11 @@ export default function Home() {
       typed.destroy();
     };
   }, []);
+=======
+import React from "react";
+
+export default function Home() {
+>>>>>>> parent of 072e06b (Updates)
   return (
     <div
     id="hero"
@@ -36,7 +42,12 @@ export default function Home() {
           <h1 className="hero-title mb-4">I am Oscar Vizcaino</h1>
           <p className="hero-subtitle">
             <span
+<<<<<<< HEAD
               ref={el}
+=======
+              className="typed"
+              data-typed-items="Designer, Developer, Freelancer, Photographer"
+>>>>>>> parent of 072e06b (Updates)
             ></span>
           </p>
         </div>
