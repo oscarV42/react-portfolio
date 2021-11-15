@@ -588,7 +588,10 @@ a:hover {
 /**
 * Mobile Navigation 
 */
-.mobile-nav-toggle {
+.navbar-toggler {
+  color: white;
+}
+/* .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
   cursor: pointer;
@@ -684,7 +687,7 @@ a:hover {
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
+} */
 
 /*--------------------------------------------------------------
 # Hero Section

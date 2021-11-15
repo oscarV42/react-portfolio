@@ -16,7 +16,7 @@ export default function Home() {
           <p className="hero-subtitle">
             <span
               className="typed"
-              data-typed-items="Designer, Developer, Freelancer, Photographer"
+              data-typed-items="Designer, Developer"
             ></span>
           </p>
         </div>

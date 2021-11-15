@@ -6,7 +6,7 @@ export default function Work() {
 
       <div className="container work-content">
         <h1 className="work-title title-a text-center">My Work</h1>
-        <div class="line-mf"></div>
+        <div className="line-mf"></div>
         <div className="card col-sm-12">
             <img
               src="./assets/images/WeatherDash.PNG"
@@ -22,12 +22,14 @@ export default function Work() {
             <a
               href="https://oscarv42.github.io/Weather-Dashboard/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Web application</a
             >
             <a
               href="https://github.com/oscarV42/Weather-Dashboard"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
@@ -48,12 +50,14 @@ export default function Work() {
             <a
               href="https://oscarv42.github.io/Work-Day-Scheduler/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Web application</a
             >
             <a
               href="https://github.com/oscarV42/Work-Day-Scheduler"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
@@ -74,12 +78,14 @@ export default function Work() {
             <a
               href="https://jyothybaby.github.io/Trail-Finder/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Web application</a
             >
             <a
               href="https://github.com/jyothybaby/Trail-Finder"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
@@ -100,12 +106,14 @@ export default function Work() {
             <a
               href="https://oscarv42.github.io/Code-Quiz/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Web application</a
             >
             <a
               href="https://github.com/oscarV42/Code-Quiz"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
@@ -126,12 +134,14 @@ export default function Work() {
             <a
               href="https://oscarv42.github.io/Password-Generator/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Web application</a
             >
             <a
               href="https://github.com/oscarV42/Password-Generator"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
@@ -153,12 +163,14 @@ export default function Work() {
             <a
               href="https://young-wave-83983.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Web application</a
             >
             <a
               href="https://github.com/oscarV42/Note-Taker"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
@@ -179,6 +191,7 @@ export default function Work() {
             <a
               href="https://github.com/oscarV42/E-Commerce-Back-End"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
@@ -199,12 +212,14 @@ export default function Work() {
             <a
               href="https://stark-wildwood-15294.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Web application</a
             >
             <a
               href="https://github.com/oscarV42/Bookworm-Haven"
               target="_blank"
+              rel="noreferrer"
               className="btn btn-danger"
               >Repository</a
             >
