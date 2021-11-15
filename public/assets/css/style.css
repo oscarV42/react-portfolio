@@ -166,7 +166,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #ff0022;
   margin: 0 auto;
 }
 
@@ -183,7 +183,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #ff0000;
   width: 100px;
   bottom: -12px;
 }
@@ -261,7 +261,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #ff0000;
   display: block;
 }
 
@@ -811,8 +811,8 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  background-color: #ff0000;
+  box-shadow: 0 0 0 10px #f8cdcd;
 }
 .service-box .service-ico {
   margin-bottom: 1rem;
@@ -867,50 +867,57 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Work
 --------------------------------------------------------------*/
-.work-box {
-  margin-bottom: 3rem;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: #fff;
+.work {
+  background-color: #4e4e4e;
+  padding: 13%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.work-box:hover img {
-  transform: scale(1.3);
-}
-
-.work-img {
-  display: block;
-  overflow: hidden;
-}
-.work-img img {
-  transition: all 1s;
-}
-
 .work-content {
-  padding: 2rem 3% 1rem 4%;
-}
-.work-content .w-more {
-  color: #4e4e4e;
-  font-size: 0.8rem;
-}
-.work-content .w-more .w-ctegory {
-  color: #0078ff;
-}
-.work-content .w-like {
-  font-size: 2.5rem;
-  color: #0078ff;
-  float: right;
-}
-.work-content .w-like a {
-  color: #0078ff;
-}
-.work-content .w-like .num-like {
-  font-size: 0.7rem;
+  justify-content: space-around;
 }
 
-.w-title {
-  font-size: 1.2rem;
+.work-title {
+  text-align: center;
+}
+
+.card {
+  flex-wrap: wrap;
+  background-color: #8d4004;
+  box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 11px #fff, 0 0 12px #704a4c,
+    0 0 12px #704a4c, 0 0 22px #464866, 0 0 32px #464866, 0 0 42px #464866;
+  margin-top: 55px;
+}
+
+.card:hover {
+  box-shadow: 0 0 7px #fff, 0 0 15px #fff, 0 0 15px #fff, 0 0 32px #464866,
+    0 0 72px #464866, 0 0 62px #464866, 0 0 72px #464866, 0 0 82px #464866;
+  transition: box-shadow 0.6s, transform 0.6s;
+  transform: translateY(-10px);
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.btn {
+  color: #8d4004;
+  background-color: #ff0000;
+  margin-right: 5px;
+}
+
+.btn:visited {
+  background-color: #ff0000;
+}
+.btn:hover {
+  background-color: #ff0000;
+}
+.btn:active {
+  background-color: #ff0000;
+}
+.btn:focus {
+  background-color: #ff0000;
 }
 
 /*--------------------------------------------------------------

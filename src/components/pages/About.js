@@ -63,26 +63,26 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div class="container services-mf pt-5 route" id ="services">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="title-box text-center">
-                      <h3 class="title-a">Services</h3>
-                      <div class="line-mf"></div>
+        <div className="container services-mf pt-5 route" id ="services">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <div className="title-box text-center">
+                      <h3 className="title-a">Services</h3>
+                      <div className="line-mf"></div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="service-box">
-                      <div class="service-ico">
-                        <span class="ico-circle"
-                          ><i class="bi bi-briefcase"></i
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="service-box">
+                      <div className="service-ico">
+                        <span className="ico-circle"
+                          ><i className="bi bi-briefcase"></i
                         ></span>
                       </div>
-                      <div class="service-content">
-                        <h2 class="s-title">Web Design</h2>
-                        <p class="s-description text-center">
+                      <div className="service-content">
+                        <h2 className="s-title">Web Design</h2>
+                        <p className="s-description text-center">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
                           Magni adipisci eaque autem fugiat! Quia, provident vitae!
                           Magni tempora perferendis eum non provident.
@@ -90,16 +90,16 @@ export default function About() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="service-box">
-                      <div class="service-ico">
-                        <span class="ico-circle"
-                          ><i class="bi bi-card-checklist"></i
+                  <div className="col-md-6">
+                    <div className="service-box">
+                      <div className="service-ico">
+                        <span className="ico-circle"
+                          ><i className="bi bi-card-checklist"></i
                         ></span>
                       </div>
-                      <div class="service-content">
-                        <h2 class="s-title">Web Development</h2>
-                        <p class="s-description text-center">
+                      <div className="service-content">
+                        <h2 className="s-title">Web Development</h2>
+                        <p className="s-description text-center">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
                           Magni adipisci eaque autem fugiat! Quia, provident vitae!
                           Magni tempora perferendis eum non provident.
