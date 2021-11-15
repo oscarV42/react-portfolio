@@ -17,7 +17,7 @@ export default function Home() {
       loop: true,
     });
 
-    // Destropying
+    // Destroying
     return () => {
       typed.destroy();
     };
