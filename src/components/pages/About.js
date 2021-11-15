@@ -40,6 +40,25 @@ export default function About() {
                         </div>
                       </div>
                     </div>
+                    <div className="row skill-mf">
+                      <a className = "col" id="icon-link" href="https://github.com/oscarV42" target="blank"
+                        ><img src="/assets/images/icons/github.png" alt="github"
+                      /></a>
+                      <a
+                      className = "col"
+                      id="icon-link"
+                      href="https://www.linkedin.com/in/oscar-vizcaino-jr-9bb562214/"
+                      target="blank"
+                        ><img src="/assets/images/icons/linkedin.png" alt="linkedin"
+                      /></a>
+                      <a
+                      className = "col"
+                      id="icon-link"
+                      href="/assets/files/Coding-Resume (4).pdf"
+                      target="blank"
+                        ><img src="/assets/images/icons/FinalResumeicon.png" alt="resume"
+                      /></a>
+                    </div>
                   </div>
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">

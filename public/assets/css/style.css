@@ -787,6 +787,25 @@ a:hover {
   }
 }
 
+.skill-mf {
+  background-color: #4e4e4e;
+  width: 50%;
+  padding: 2%;
+  border-radius: 35%;
+  box-shadow: 0px 0px 25px #ff00006e;
+}
+@media (max-width: 715px) {
+  .skill-mf {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .skill-mf {
+    width: 60%;
+  }
+}
+
 .skill-mf span {
   color: #4e4e4e;
 }
@@ -874,9 +893,16 @@ a:hover {
 --------------------------------------------------------------*/
 .work {
   background-color: #4e4e4e;
-  padding: 13%;
+  padding: 10%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+@media (max-width: 727px) {
+  .work {
+    padding-top: 15%;
+  }
+}
+
 .work-content {
   justify-content: space-around;
 }

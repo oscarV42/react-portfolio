@@ -6,7 +6,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
     <div className="container d-flex align-items-center justify-content-between">
       <h1 className="logo"><a href="#home" onClick={()=> handlePageChange('Home')}>🕶️</a></h1>
       <nav className="navbar navbar-expand-lg" id= "navbar">
-        <div class="container-fluid">
+        <div className="container-fluid">
           <button className="navbar-toggler navbar-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
