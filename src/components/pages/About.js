@@ -13,7 +13,7 @@ export default function About() {
                       <div className="col-sm-6 col-md-5">
                         <div className="about-img">
                           <img
-                            src="assets/images/Mejpg.jpg"
+                            src="/assets/images/Mejpg.jpg"
                             className="img-fluid rounded b-shadow-a"
                             alt="oscar"
                           />

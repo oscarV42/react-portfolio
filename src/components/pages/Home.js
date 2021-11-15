@@ -26,7 +26,7 @@ export default function Home() {
     <div
     id="hero"
     className="hero route bg-image"
-    style= {{backgroundImage: 'URL("/assets/images/boonk.png")'}}
+    style= {{backgroundImage: `URL("./assets/images/boonk.png")`}}
   >
     <div className="overlay-itro"></div>
     <div className="hero-content display-table">
