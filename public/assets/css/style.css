@@ -766,6 +766,10 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  border: solid 3px #00000091;
+  box-shadow: 0px 0px 50px #000000;
+}
 #about {
   background-color: #4e4e4e;
   padding-top: 13%;
@@ -786,12 +790,18 @@ a:hover {
     padding-left: 0rem;
   }
 }
+@media (max-width: 767px) {
+  #about {
+    padding-top: 20%;
+  }
+}
 
 .skill-mf {
-  background-color: #4e4e4e;
+  background-color: #00000085;
   width: 50%;
   padding: 2%;
-  border-radius: 35%;
+  border-radius: 10%;
+  border: solid 2px #00000085;
   box-shadow: 0px 0px 25px #ff00006e;
 }
 @media (max-width: 715px) {
@@ -827,6 +837,7 @@ a:hover {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
+  box-shadow: 10px 10px 10px #00000085;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -912,10 +923,9 @@ a:hover {
 }
 
 .card {
-  flex-wrap: wrap;
-  background-color: #8d4004;
+  border: 5px solid black;
   box-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 11px #fff, 0 0 12px #704a4c,
-    0 0 12px #704a4c, 0 0 22px #464866, 0 0 32px #464866, 0 0 42px #464866;
+    0 0 12px #704a4c, 0 0 22px #464866, 0 0 22px #464866, 0 0 32px #464866;
   margin-top: 55px;
 }
 
@@ -924,6 +934,10 @@ a:hover {
     0 0 72px #464866, 0 0 62px #464866, 0 0 72px #464866, 0 0 82px #464866;
   transition: box-shadow 0.6s, transform 0.6s;
   transform: translateY(-10px);
+}
+
+.card-title {
+  font-weight: bold;
 }
 
 .card-text {
@@ -947,6 +961,10 @@ a:hover {
 }
 .btn:focus {
   background-color: #ff0000;
+}
+
+.technologies {
+  padding-top: 10%;
 }
 
 /*--------------------------------------------------------------

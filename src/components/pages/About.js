@@ -6,7 +6,7 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <div className="box-shadow-full">
+              <div className="box-shadow-full about">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="row">
@@ -27,7 +27,7 @@ export default function About() {
                           </p>
                           <p>
                             <span className="title-s">Profile: </span>
-                            <span>full stack developer</span>
+                            <span>Full stack web developer</span>
                           </p>
                           <p>
                             <span className="title-s">Email: </span>
@@ -102,9 +102,7 @@ export default function About() {
                       <div className="service-content">
                         <h2 className="s-title">Web Design</h2>
                         <p className="s-description text-center">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                          Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                          Magni tempora perferendis eum non provident.
+                        From implementing first or third party platforms to building a custom website from scratch, I develop effective systems that are flexible, intuitive, beautiful, and mobile-ready. Helping improve the consumer experience.
                         </p>
                       </div>
                     </div>
@@ -119,9 +117,7 @@ export default function About() {
                       <div className="service-content">
                         <h2 className="s-title">Web Development</h2>
                         <p className="s-description text-center">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                          Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                          Magni tempora perferendis eum non provident.
+                          Offering a wide range of technologies to develop immsersive web applications. Design, build, support, and evolve all types of web-based software with complex programming.
                         </p>
                       </div>
                     </div>
