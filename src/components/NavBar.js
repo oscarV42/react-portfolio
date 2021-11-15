@@ -2,15 +2,11 @@ import React from "react";
 
 const NavBar = ({ currentPage, handlePageChange }) => {
   return(
-  <header id="header" className="">
+  <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center justify-content-between">
       <h1 className="logo"><a href="#home" onClick={()=> handlePageChange('Home')}>🕶️</a></h1>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className = "navbar-nav ml-auto float-end mb-2 mb-lg-0">
+      <nav className="navbar" id= "navbar">
+            <ul>
               <li className = "nav-item">
                 <a href = "#home" 
                 onClick={()=> handlePageChange('Home')}
@@ -40,7 +36,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
                 </a>
               </li>
             </ul>
-          </div>
+            <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
     </div>
   </header>

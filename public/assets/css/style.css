@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   color: #4e4e4e;
 }
 
@@ -456,8 +456,8 @@ a:hover {
 #header .logo img {
   max-height: 40px;
 }
-#header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+#header {
+  background: rgba(0, 0, 0, 0.787);
   padding: 12px 0;
 }
 
@@ -763,6 +763,10 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about {
+  background-color: #4e4e4e;
+  padding-top: 13%;
+}
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -791,7 +795,7 @@ a:hover {
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #007afb;
 }
 
 /*--------------------------------------------------------------
