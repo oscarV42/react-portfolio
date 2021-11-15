@@ -102,7 +102,7 @@ export default function About() {
                       <div className="service-content">
                         <h2 className="s-title">Web Design</h2>
                         <p className="s-description text-center">
-                        From implementing first or third party platforms to building a custom website from scratch, I develop effective systems that are flexible, intuitive, beautiful, and mobile-ready. Helping improve the consumer experience.
+                        From implementing third party platforms to building a custom website from scratch, I develop effective systems that are flexible, intuitive, beautiful, and mobile-ready. Helping improve the consumer experience.
                         </p>
                       </div>
                     </div>
