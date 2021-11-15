@@ -6,11 +6,7 @@ export default function About() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-<<<<<<< HEAD
               <div className="box-shadow-full about">
-=======
-              <div className="box-shadow-full">
->>>>>>> parent of 072e06b (Updates)
                 <div className="row">
                   <div className="col-md-6">
                     <div className="row">
@@ -31,11 +27,7 @@ export default function About() {
                           </p>
                           <p>
                             <span className="title-s">Profile: </span>
-<<<<<<< HEAD
                             <span>Full stack web developer</span>
-=======
-                            <span>full stack developer</span>
->>>>>>> parent of 072e06b (Updates)
                           </p>
                           <p>
                             <span className="title-s">Email: </span>
@@ -48,7 +40,6 @@ export default function About() {
                         </div>
                       </div>
                     </div>
-<<<<<<< HEAD
                     <div className="row skill-mf">
                       <a className = "col" id="icon-link" href="https://github.com/oscarV42" target="blank"
                         ><img src="/assets/images/icons/github.png" alt="github"
@@ -68,8 +59,6 @@ export default function About() {
                         ><img src="/assets/images/icons/FinalResumeicon.png" alt="resume"
                       /></a>
                     </div>
-=======
->>>>>>> parent of 072e06b (Updates)
                   </div>
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
@@ -93,7 +82,6 @@ export default function About() {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
         <div className="container services-mf pt-5 route" id ="services">
                 <div className="row">
                   <div className="col-sm-12">
@@ -115,36 +103,10 @@ export default function About() {
                         <h2 className="s-title">Web Design</h2>
                         <p className="s-description text-center">
                         From implementing third party platforms to building a custom website from scratch, I develop effective systems that are flexible, intuitive, beautiful, and mobile-ready. Helping improve the consumer experience.
-=======
-        <div class="container services-mf pt-5 route" id ="services">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="title-box text-center">
-                      <h3 class="title-a">Services</h3>
-                      <div class="line-mf"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="service-box">
-                      <div class="service-ico">
-                        <span class="ico-circle"
-                          ><i class="bi bi-briefcase"></i
-                        ></span>
-                      </div>
-                      <div class="service-content">
-                        <h2 class="s-title">Web Design</h2>
-                        <p class="s-description text-center">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                          Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                          Magni tempora perferendis eum non provident.
->>>>>>> parent of 072e06b (Updates)
                         </p>
                       </div>
                     </div>
                   </div>
-<<<<<<< HEAD
                   <div className="col-md-6">
                     <div className="service-box">
                       <div className="service-ico">
@@ -156,21 +118,6 @@ export default function About() {
                         <h2 className="s-title">Web Development</h2>
                         <p className="s-description text-center">
                           Offering a wide range of technologies to develop immsersive web applications. Design, build, support, and evolve all types of web-based software with complex programming.
-=======
-                  <div class="col-md-6">
-                    <div class="service-box">
-                      <div class="service-ico">
-                        <span class="ico-circle"
-                          ><i class="bi bi-card-checklist"></i
-                        ></span>
-                      </div>
-                      <div class="service-content">
-                        <h2 class="s-title">Web Development</h2>
-                        <p class="s-description text-center">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                          Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                          Magni tempora perferendis eum non provident.
->>>>>>> parent of 072e06b (Updates)
                         </p>
                       </div>
                     </div>
