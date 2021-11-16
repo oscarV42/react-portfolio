@@ -13,7 +13,7 @@ export default function About() {
                       <div className="col-sm-6 col-md-5">
                         <div className="about-img">
                           <img
-                            src="/assets/images/Mejpg.jpg"
+                            src={`${process.env.PUBLIC_URL}/assets/images/Mejpg.jpg`}
                             className="img-fluid rounded b-shadow-a"
                             alt="oscar"
                           />
@@ -42,21 +42,21 @@ export default function About() {
                     </div>
                     <div className="row skill-mf">
                       <a className = "col" id="icon-link" href="https://github.com/oscarV42" target="blank"
-                        ><img src="/assets/images/icons/github.png" alt="github"
+                        ><img src={`${process.env.PUBLIC_URL}/assets/images/icons/github.png`} alt="github"
                       /></a>
                       <a
                       className = "col"
                       id="icon-link"
                       href="https://www.linkedin.com/in/oscar-vizcaino-jr-9bb562214/"
                       target="blank"
-                        ><img src="/assets/images/icons/linkedin.png" alt="linkedin"
+                        ><img src={`${process.env.PUBLIC_URL}/assets/images/icons/linkedin.png`} alt="linkedin"
                       /></a>
                       <a
                       className = "col"
                       id="icon-link"
-                      href="/assets/files/Coding-Resume (4).pdf"
+                      href={`${process.env.PUBLIC_URL}/assets/files/Coding-Resume (4).pdf`}
                       target="blank"
-                        ><img src="/assets/images/icons/FinalResumeicon.png" alt="resume"
+                        ><img src={`${process.env.PUBLIC_URL}/assets/images/icons/FinalResumeicon.png`} alt="resume"
                       /></a>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ export default function About() {
                       <div className="service-content">
                         <h2 className="s-title">Web Design</h2>
                         <p className="s-description text-center">
-                        From implementing first or third party platforms to building a custom website from scratch, I develop effective systems that are flexible, intuitive, beautiful, and mobile-ready. Helping improve the consumer experience.
+                        From implementing third party platforms to building a custom website from scratch, I develop effective systems that are flexible, intuitive, beautiful, and mobile-ready. Helping improve the consumer experience.
                         </p>
                       </div>
                     </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { PureComponent } from "react";
 
 export default function Work() {
     return (
@@ -8,7 +8,7 @@ export default function Work() {
         <div className="line-mf"></div>
             <div className="card">
               <img
-                src="./assets/images/WeatherDash.PNG"
+                src={`${process.env.PUBLIC_URL}/assets/images/WeatherDash.PNG`}
                 className="card-img-top"
                 alt="WeatherDash"
               />
@@ -36,7 +36,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src="./assets/images/Workday.PNG"
+                src={`${process.env.PUBLIC_URL}/assets/images/Workday.PNG`}
                 className="card-img-top"
                 alt="WorkdayScheduler"
               />
@@ -64,7 +64,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src="./assets/images/Trail-Finder.png"
+                src={`${process.env.PUBLIC_URL}/assets/images/Trail-Finder.png`}
                 className="card-img-top"
                 alt="TrailFinder"
               />
@@ -92,7 +92,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src="./assets/images/Code-Quiz.PNG"
+                src={`${process.env.PUBLIC_URL}/assets/images/Code-Quiz.PNG`}
                 className="card-img-top"
                 alt="TrailFinder"
               />
@@ -120,7 +120,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src="./assets/images/03-javascript-homework-demo.png"
+                src={`${process.env.PUBLIC_URL}/assets/images/03-javascript-homework-demo.png`}
                 className="card-img-top"
                 alt="PasswordGen"
               />
@@ -148,7 +148,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src="./assets/images/Note-Taker.png"
+                src={`${process.env.PUBLIC_URL}/assets/images/Note-Taker.png`}
                 className="card-img-top"
                 alt="NoteTaker"
               />
@@ -177,7 +177,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src="./assets/images/E-Commerce.png"
+                src={`${process.env.PUBLIC_URL}/assets/images/E-Commerce.png`}
                 className="card-img-top"
                 alt="E-Commerce"
               />
@@ -198,7 +198,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src="./assets/images/BookwormHaven.png"
+                src={`${process.env.PUBLIC_URL}/assets/images/BookwormHaven.png`}
                 className="card-img-top"
                 alt="BookWorm"
               />
