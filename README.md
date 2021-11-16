@@ -28,7 +28,7 @@ run npm i to install npm dependencies if forked into your local drive
 
 ## Links
 
-Deployed Application: https://github.com/oscarV42/react-portfolio
+Deployed Application: https://oscarv42.github.io/react-portfolio/
 
 GitHub Repo: https://github.com/oscarV42/react-portfolio
 
