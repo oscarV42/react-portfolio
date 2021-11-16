@@ -10,6 +10,10 @@ A professional portfolio using REACT
     -REACT
     -Typed.js
 
+## Template
+
+Here is a link to the Bootstrap template I worked off of: Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+
 ## Dependencies
 
 run npm i to install npm dependencies if forked into your local drive
