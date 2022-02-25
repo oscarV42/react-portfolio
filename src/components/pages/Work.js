@@ -251,6 +251,33 @@ export default function Work() {
                 >
               </div>
             </div>
+            <div className="card">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/BookSearchHome.PNG`}
+                className="card-img-top"
+                alt="WorkoutTracker"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Book Search Engine</h5>
+                <p className="card-text">
+                Refactor a fully functioning Google Books API search engine built with a RESTful API to be GraphQL API built with Apollo Server.
+                </p>
+                <a
+                  href="https://floating-shore-13551.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Web application</a
+                >
+                <a
+                  href="https://github.com/oscarV42/Book-Search-Engine"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Repository</a
+                >
+              </div>
+            </div>
       </div>
       {/* <div className = "technologies"> 
         <div className="row">
