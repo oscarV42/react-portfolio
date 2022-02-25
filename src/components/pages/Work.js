@@ -198,7 +198,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src={`${process.env.PUBLIC_URL}/assets/images/BookwormHaven.png`}
+                src={`${process.env.PUBLIC_URL}/assets/images/BookwormHaven.PNG`}
                 className="card-img-top"
                 alt="BookWorm"
               />
