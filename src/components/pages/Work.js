@@ -267,7 +267,7 @@ export default function Work() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-danger"
-                  >Web application</a
+                  >Web application: Down as of right now</a
                 >
                 <a
                   href="https://github.com/oscarV42/Book-Search-Engine"
@@ -321,7 +321,7 @@ export default function Work() {
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-danger"
-                  >Web application</a
+                  >Web application: Down as of right now</a
                 >
                 <a
                   href="https://github.com/oscarV42/redux_store"
