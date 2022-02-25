@@ -307,7 +307,7 @@ export default function Work() {
             </div>
             <div className="card">
               <img
-                src={`${process.env.PUBLIC_URL}/assets/images/BudgetTracker.PNG`}
+                src={`${process.env.PUBLIC_URL}/assets/images/ReduxStoreShopList.PNG`}
                 className="card-img-top"
                 alt="ReduxStore"
               />
