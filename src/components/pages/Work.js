@@ -255,7 +255,7 @@ export default function Work() {
               <img
                 src={`${process.env.PUBLIC_URL}/assets/images/BookSearchHome.PNG`}
                 className="card-img-top"
-                alt="WorkoutTracker"
+                alt="BookSearchEngine"
               />
               <div className="card-body">
                 <h5 className="card-title">Book Search Engine</h5>
@@ -278,6 +278,61 @@ export default function Work() {
                 >
               </div>
             </div>
+            <div className="card">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/BudgetTracker.PNG`}
+                className="card-img-top"
+                alt="BudgetTacker"
+              />
+              <div className="card-body">
+                <h5 className="card-title">PWA Budget Tracker</h5>
+                <p className="card-text">
+                A budget tracking application with offline functionality
+                </p>
+                <a
+                  href="https://thawing-river-72353.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Web application</a
+                >
+                <a
+                  href="https://github.com/oscarV42/PWA-Budget-Tracker"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Repository</a
+                >
+              </div>
+            </div>
+            <div className="card">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/BudgetTracker.PNG`}
+                className="card-img-top"
+                alt="ReduxStore"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Redux Store</h5>
+                <p className="card-text">
+                Refactor a shopping app to use Redux to manage state.
+                </p>
+                <a
+                  href="https://dry-fjord-16375.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Web application</a
+                >
+                <a
+                  href="https://github.com/oscarV42/redux_store"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Repository</a
+                >
+              </div>
+            </div>
+            
       </div>
       {/* <div className = "technologies"> 
         <div className="row">
