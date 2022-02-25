@@ -224,6 +224,33 @@ export default function Work() {
                 >
               </div>
             </div>
+            <div className="card">
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/WorkoutTrackerHome.PNG`}
+                className="card-img-top"
+                alt="WorkoutTracker"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Workout Tracker</h5>
+                <p className="card-text">
+                An application that tracks a users workout routine using Mongo database, Mongoose schema, and Express.
+                </p>
+                <a
+                  href="https://quiet-sierra-15205.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Web application</a
+                >
+                <a
+                  href="https://github.com/oscarV42/Nosql_Workout_Tracker"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-danger"
+                  >Repository</a
+                >
+              </div>
+            </div>
       </div>
       {/* <div className = "technologies"> 
         <div className="row">
