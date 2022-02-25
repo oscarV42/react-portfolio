@@ -54,7 +54,7 @@ export default function About() {
                       <a
                       className = "col"
                       id="icon-link"
-                      href={`${process.env.PUBLIC_URL}/assets/files/Coding-Resume (4).pdf`}
+                      href={`${process.env.PUBLIC_URL}/assets/files/Coding-Resume.pdf`}
                       target="blank"
                         ><img src={`${process.env.PUBLIC_URL}/assets/images/icons/FinalResumeicon.png`} alt="resume"
                       /></a>
