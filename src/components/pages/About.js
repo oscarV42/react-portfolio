@@ -66,13 +66,11 @@ export default function About() {
                         <h5 className="title-left">About me</h5>
                       </div>
                       <p className="lead">
-                      I'm a hispanic web developer currently enrolled in Georgia Tech coding
-                      Bootcamp. Technologies I use for web development are HTML, CSS,
+                      I'm a hispanic web developer that recently graduated from Georgia Tech coding bootcamp. Technologies I use for web development are HTML, CSS,
                       JavaScript/JQuery, Express.js, Node.js, Sequelize, MYSQL, NoSQL, MongoDB, Mongoose, and React. I have some
                       experience in Visual Basics and C/C++ from attending Edmonds Community
                       College. Web development is an art and I love to see all the progress
-                      from creating and collaborating on projects. I don't have any
-                      professional work experience in this field but I'm open to new
+                      from creating and collaborating on projects. I am willing to learn new technologies to advance my development skills and open to
                       opportunities.
                       </p>
                     </div>
